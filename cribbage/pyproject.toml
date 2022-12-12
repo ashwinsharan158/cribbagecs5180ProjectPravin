@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "cribbage-rl5180-main"
+version = "0.1.0"
+description = ""
+authors = ["pravinpawar <pawar.prav@northeastern.edu>"]
+readme = "README.md"
+packages = [{include = "cribbage_rl5180_main"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
